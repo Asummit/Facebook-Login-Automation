@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  8 21:01:01 2018
-
-@author: samola
-"""
-
+#Import Selenium python library..
 from selenium import webdriver
 driver = webdriver.Chrome(executable_path=r'C:\Users\samola\Desktop\chromedriver') #path for your chromedriver
 driver.get('https://www.facebook.com/')
